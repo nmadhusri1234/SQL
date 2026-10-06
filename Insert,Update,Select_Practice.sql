@@ -71,8 +71,6 @@ select emp_name,mod(salary,1000) as remainder from employees;
 
 
 
-
-
 select price*quantity as total_price from products;
 
 set sql_safe_updates = 0;
@@ -99,6 +97,7 @@ department VARCHAR(50),
 salary DECIMAL(10,2),
 experience INT,
 status INT);
+
 insert into employees_backup select * from employees;
 select * from employees_backup;
 drop table employees_backup;
