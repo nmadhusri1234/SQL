@@ -106,5 +106,5 @@ desc studenttt;
 
 alter table studenttt drop constraint uk_student_email;
 
-
+select * from studenttt;
 
